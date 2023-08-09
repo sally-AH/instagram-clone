@@ -4,20 +4,24 @@ import { toast } from 'react-toastify';
 import { useNavigate  } from 'react-router-dom';
 
 
-const Authenication = () => {
+const Signup = () => {
   const navigate  = useNavigate();
+  const [name, setName] = useState("")
+  const [user_name, setUser] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
-  const Login = async (e) => {
+  const SignupMethod = async (e) => {
       e.preventDefault()
 
       const formData =  new FormData()
+      formData.append('name', name)
+      formData.append('user_name', user_name)
       formData.append('email', email)
       formData.append('password', password)
 
 
-      await axios.post('http://127.0.0.1:8000/api/guest/login', formData)
+      await axios.post('http://127.0.0.1:8000/api/guest/register', formData)
       .then(({data})=>{
           toast.fire({
               icon:'success',
@@ -34,16 +38,20 @@ const Authenication = () => {
 
   return (
     <div>
-      <h1>Login</h1>
+      <h1>Signup</h1>
       <div>
-        <label>User Email</label>
+      <label>Full Name</label>
+        <input type ="text" placeholder='full name' onChange={(e)=>setName(e.target.value)} required/>
+        <label>User Name</label>
+        <input type ="text" placeholder='User Name' onChange={(e)=>setUser(e.target.value)} required/>
+        <label>Email</label>
         <input type ="text" placeholder='Email' onChange={(e)=>setEmail(e.target.value)} required/>
         <label>Password</label>
         <input type ="text" onChange={(e)=>setPassword(e.target.value)} required/>
-        <button type="button" className="add-button" onClick={Login}>Login</button>
+        <button type="button" className="add-button" onClick={SignupMethod}>Signup</button>
       </div>
     </div>
   )
 }
 
-export default Authenication
+export default Signup
