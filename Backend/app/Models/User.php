@@ -35,4 +35,8 @@ class User extends Authenticatable implements JWTSubject {
     public function getJWTCustomClaims() {
         return [];
     }
+
+    // public function getFillNameAttribute () {
+    //     return implode("_",[$this->first_name, $this->last_name]);
+    // }
 }
