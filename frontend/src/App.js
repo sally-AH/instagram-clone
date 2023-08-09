@@ -4,6 +4,7 @@ import Authentication from './pages/Authentication';
 import Profile from './pages/profile';
 import Landing from './pages/landing';
 import Signup from './pages/signup';
+import AddPost from './pages/add_post';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/profile" element= {<Profile/>} />
           <Route path="/authentication" element= {<Authentication/>} />
           <Route path="/signup" element= {<Signup/>} />
+          <Route path="/addpost" element= {<AddPost/>} />
         </Routes>
       </BrowserRouter>
     </div>
