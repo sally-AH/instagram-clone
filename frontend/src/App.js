@@ -1,6 +1,6 @@
 import React  from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Authenication from './pages/Authentication';
+import Authentication from './pages/Authentication';
 import Profile from './pages/profile';
 import Landing from './pages/landing';
 import Signup from './pages/signup';
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element= {<Landing/>} />
           <Route path="/profile" element= {<Profile/>} />
-          <Route path="/authenication" element= {<Authenication/>} />
+          <Route path="/authentication" element= {<Authentication/>} />
           <Route path="/signup" element= {<Signup/>} />
         </Routes>
       </BrowserRouter>

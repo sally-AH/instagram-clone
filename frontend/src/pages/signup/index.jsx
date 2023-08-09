@@ -23,6 +23,8 @@ const Signup = () => {
 
       await axios.post('http://127.0.0.1:8000/api/guest/register', formData)
       .then(({data})=>{
+        localStorage.setItem('userId', data.data.id);
+        console.log(data.data.id);
           toast.fire({
               icon:'success',
               title:"Success",

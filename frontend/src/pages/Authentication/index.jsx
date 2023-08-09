@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import { useNavigate  } from 'react-router-dom';
 
 
-const Authenication = () => {
+const Authentication = () => {
   const navigate  = useNavigate();
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
@@ -19,6 +19,8 @@ const Authenication = () => {
 
       await axios.post('http://127.0.0.1:8000/api/guest/login', formData)
       .then(({data})=>{
+        localStorage.setItem('userId', data.data.id);
+        console.log(data.data.id);
           toast.fire({
               icon:'success',
               title:"Success",
@@ -46,4 +48,4 @@ const Authenication = () => {
   )
 }
 
-export default Authenication
+export default Authentication
