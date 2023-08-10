@@ -10,7 +10,6 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 
 .post {
