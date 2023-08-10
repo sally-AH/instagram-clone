@@ -20,6 +20,7 @@ const Authentication = () => {
       await axios.post('http://127.0.0.1:8000/api/guest/login', formData)
       .then(({data})=>{
         localStorage.setItem('userId', data.data.id);
+        localStorage.setItem('userToken', data.data.token);
         console.log(data.data.id);
           toast.fire({
               icon:'success',
@@ -36,18 +37,18 @@ const Authentication = () => {
 
   return (
     <>
-      <div class="login-container">
-        <div class="login-box">
+      <div className="login-container">
+        <div className="login-box">
           <h1>Login</h1>
-          <div class="input-container">
+          <div className="input-container">
             <label htmlFor="email">Email</label>
-            <input type="text" id="email" class="input-field" placeholder="Enter your email" onChange={(e)=>setEmail(e.target.value)} required/>
+            <input type="text" id="email" className="input-field" placeholder="Enter your email" onChange={(e)=>setEmail(e.target.value)} required/>
           </div>
-          <div class="input-container">
+          <div className="input-container">
             <label htmlFor="password">Password</label>
-            <input type="password" id="password" class="input-field" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)} required/>
+            <input type="password" id="password" className="input-field" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)} required/>
           </div>
-          <button class="login-button" onClick={Login}>Log In</button>
+          <button className="login-button" onClick={Login}>Log In</button>
         </div>
       </div>
     </>

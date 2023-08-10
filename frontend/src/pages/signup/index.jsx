@@ -41,26 +41,26 @@ const Signup = () => {
 
   return (
       <>
-        <div class="signup-container">
-          <div class="signup-box">
+        <div className="signup-container">
+          <div className="signup-box">
               <h1>Sign Up</h1>
-              <div class="input-container">
+              <div className="input-container">
                   <label htmlFor="fullname">Full Name</label>
                   <input type="text" id="fullname" class="input-field" placeholder="Enter your full name" onChange={(e)=>setName(e.target.value)} required/>
               </div>
-              <div class="input-container">
+              <div className="input-container">
                   <label htmlFor="username">Username</label>
                   <input type="text" id="username" class="input-field" placeholder="Choose a username" onChange={(e)=>setUser(e.target.value)} required/>
               </div>
-              <div class="input-container">
+              <div className="input-container">
                   <label htmlFor="email">Email</label>
                   <input type="email" id="email" class="input-field" placeholder="Enter your email" onChange={(e)=>setEmail(e.target.value)} required/>
               </div>
-              <div class="input-container">
+              <div className="input-container">
                   <label htmlFor="password">Password</label>
                   <input type="password" id="password" class="input-field" placeholder="Choose a password" onChange={(e)=>setPassword(e.target.value)} required/>
               </div>
-              <button class="signup-button" onClick={SignupMethod}>Sign Up</button>
+              <button className="signup-button" onClick={SignupMethod}>Sign Up</button>
           </div>
         </div>
       </>

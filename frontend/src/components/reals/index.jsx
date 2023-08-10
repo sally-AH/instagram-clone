@@ -9,92 +9,92 @@ const Reals = () => {
   
     return (
         <>
-            <div class="stories-bar">
-                <div class="story">
-                    <div class="story-thumbnail">
+            <div className="stories-bar">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>
-                <div class="story">
-                    <div class="story-thumbnail">
+                <div className="story">
+                    <div className="story-thumbnail">
                         <img src="https://picsum.photos/200" alt=""/>
                     </div>
-                    <div class="story-user">
+                    <div className="story-user">
                         <span>username1</span>
                     </div>
                 </div>

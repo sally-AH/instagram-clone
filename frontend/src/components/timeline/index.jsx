@@ -9,49 +9,49 @@ const Timeline = () => {
   
     return (
         <>
-            <div class="timeline">
-                <div class="post">
-                    <div class="post-header">
+            <div className="timeline">
+            <div className="post">
+                    <div className="post-header">
                         <img src="https://picsum.photos/200" alt="User Avatar"/>
-                        <span class="username">username</span>
+                        <span className="username">username</span>
                     </div>
-                    <img src="https://picsum.photos/200/300" alt="Post Image" class="post-image"/>
-                    <div class="post-actions">
-                        <button class="like-button">Like</button>
-                        <button class="comment-button">Comment</button>
+                    <img src="https://picsum.photos/200/300" alt="Post Image" className="post-image"/>
+                    <div className="post-actions">
+                        <button className="like-button">Like</button>
+                        <button className="comment-button">Comment</button>
                     </div>
                 </div>
-                <div class="post">
-                    <div class="post-header">
+                <div className="post">
+                    <div className="post-header">
                         <img src="https://picsum.photos/200" alt="User Avatar"/>
-                        <span class="username">username</span>
+                        <span className="username">username</span>
                     </div>
-                    <img src="https://picsum.photos/200/300" alt="Post Image" class="post-image"/>
-                    <div class="post-actions">
-                        <button class="like-button">Like</button>
-                        <button class="comment-button">Comment</button>
+                    <img src="https://picsum.photos/200/300" alt="Post Image" className="post-image"/>
+                    <div className="post-actions">
+                        <button className="like-button">Like</button>
+                        <button className="comment-button">Comment</button>
                     </div>
                 </div>
-                <div class="post">
-                    <div class="post-header">
+                <div className="post">
+                    <div className="post-header">
                         <img src="https://picsum.photos/200" alt="User Avatar"/>
-                        <span class="username">username</span>
+                        <span className="username">username</span>
                     </div>
-                    <img src="https://picsum.photos/200/300" alt="Post Image" class="post-image"/>
-                    <div class="post-actions">
-                        <button class="like-button">Like</button>
-                        <button class="comment-button">Comment</button>
+                    <img src="https://picsum.photos/200/300" alt="Post Image" className="post-image"/>
+                    <div className="post-actions">
+                        <button className="like-button">Like</button>
+                        <button className="comment-button">Comment</button>
                     </div>
                 </div>
-                <div class="post">
-                    <div class="post-header">
+                <div className="post">
+                    <div className="post-header">
                         <img src="https://picsum.photos/200" alt="User Avatar"/>
-                        <span class="username">username</span>
+                        <span className="username">username</span>
                     </div>
-                    <img src="https://picsum.photos/200/300" alt="Post Image" class="post-image"/>
-                    <div class="post-actions">
-                        <button class="like-button">Like</button>
-                        <button class="comment-button">Comment</button>
+                    <img src="https://picsum.photos/200/300" alt="Post Image" className="post-image"/>
+                    <div className="post-actions">
+                        <button className="like-button">Like</button>
+                        <button className="comment-button">Comment</button>
                     </div>
                 </div>
             </div>
