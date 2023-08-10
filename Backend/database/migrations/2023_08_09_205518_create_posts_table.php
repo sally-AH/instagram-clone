@@ -17,6 +17,12 @@ return new class extends Migration
             $table->text('pic_url');
             $table->timestamps();
         });
+
+        Schema::create('likes', function (Blueprint $table) {
+            $table->integer("user_id");
+            $table->integer("post_id");
+            $table->timestamps();
+        });
     }
 
     /**
