@@ -5,6 +5,7 @@ import { useNavigate  } from 'react-router-dom';
 import Navigation from '../../components/navigation'
 import Timeline from '../../components/timeline'
 import Reals from '../../components/reals'
+import './style.css'
 
 const Landing = () => {
   const navigate  = useNavigate();
@@ -40,13 +41,24 @@ const Landing = () => {
   return (
     <div>
 
-      <h1>Landing Page - {userId}</h1>
+
+    <div className="app-container">
+      <div className="left-sidebar">
+        <Navigation />
+      </div>
+      <div className="content-container">
+        <div className="reels-bar">
+          <Reals />
+        </div>
+        <div className="timeline">
+          <Timeline />
+        </div>
+      </div>
+    </div>
+        <h1>Landing Page - {userId}</h1>
       <label>search</label>
         <input type ="text" placeholder='enter a name' onChange={(e)=>setUsername(e.target.value)} required/>
         <button type="button" className="add-button" onClick={FindUser}>search</button>
-        <Navigation/>
-        <Reals/>
-        <Timeline/>
     </div>
   )
 }

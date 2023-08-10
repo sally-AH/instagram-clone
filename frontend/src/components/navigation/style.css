@@ -6,6 +6,7 @@ body {
 
 .menu-container {
     display: flex;
+    height: 100%;
 }
 
 .menu {
@@ -42,6 +43,7 @@ body {
 
 .menu-items a:hover {
     background: #f0f0f0;
+    color: #000000;
 }
 
 .content {

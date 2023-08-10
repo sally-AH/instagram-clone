@@ -42,6 +42,63 @@ const Reals = () => {
                         <span>username1</span>
                     </div>
                 </div>
+                <div class="story">
+                    <div class="story-thumbnail">
+                        <img src="https://picsum.photos/200" alt=""/>
+                    </div>
+                    <div class="story-user">
+                        <span>username1</span>
+                    </div>
+                </div>
+                <div class="story">
+                    <div class="story-thumbnail">
+                        <img src="https://picsum.photos/200" alt=""/>
+                    </div>
+                    <div class="story-user">
+                        <span>username1</span>
+                    </div>
+                </div>
+                <div class="story">
+                    <div class="story-thumbnail">
+                        <img src="https://picsum.photos/200" alt=""/>
+                    </div>
+                    <div class="story-user">
+                        <span>username1</span>
+                    </div>
+                </div>
+                <div class="story">
+                    <div class="story-thumbnail">
+                        <img src="https://picsum.photos/200" alt=""/>
+                    </div>
+                    <div class="story-user">
+                        <span>username1</span>
+                    </div>
+                </div>
+                <div class="story">
+                    <div class="story-thumbnail">
+                        <img src="https://picsum.photos/200" alt=""/>
+                    </div>
+                    <div class="story-user">
+                        <span>username1</span>
+                    </div>
+                </div>
+                <div class="story">
+                    <div class="story-thumbnail">
+                        <img src="https://picsum.photos/200" alt=""/>
+                    </div>
+                    <div class="story-user">
+                        <span>username1</span>
+                    </div>
+                </div>
+                <div class="story">
+                    <div class="story-thumbnail">
+                        <img src="https://picsum.photos/200" alt=""/>
+                    </div>
+                    <div class="story-user">
+                        <span>username1</span>
+                    </div>
+                </div>
+
 
             </div>
         </>
