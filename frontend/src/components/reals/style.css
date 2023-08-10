@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.stories-bar {
+    background-color: #000000;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    padding: 10px 20px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.story-thumbnail img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #e1306c;
+}
+
+.story-user span {
+    margin-top: 5px;
+    font-size: 12px;
+}

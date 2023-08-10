@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useNavigate  } from 'react-router-dom';
-
+import './style.css'
 
 const Authentication = () => {
   const navigate  = useNavigate();
@@ -29,22 +29,28 @@ const Authentication = () => {
       .catch(({response})=>{
 
       })
-      navigate('/');
+      navigate('/home');
   }
 
 
 
   return (
-    <div>
-      <h1>Login</h1>
-      <div>
-        <label>User Email</label>
-        <input type ="text" placeholder='Email' onChange={(e)=>setEmail(e.target.value)} required/>
-        <label>Password</label>
-        <input type ="text" onChange={(e)=>setPassword(e.target.value)} required/>
-        <button type="button" className="add-button" onClick={Login}>Login</button>
+    <>
+      <div class="login-container">
+        <div class="login-box">
+          <h1>Login</h1>
+          <div class="input-container">
+            <label htmlFor="email">Email</label>
+            <input type="text" id="email" class="input-field" placeholder="Enter your email" onChange={(e)=>setEmail(e.target.value)} required/>
+          </div>
+          <div class="input-container">
+            <label htmlFor="password">Password</label>
+            <input type="password" id="password" class="input-field" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)} required/>
+          </div>
+          <button class="login-button" onClick={Login}>Log In</button>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
